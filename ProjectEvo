@@ -20,11 +20,10 @@ class Evo:
             row.append(0)
         DNK.append(row)
 
-    def __init__(self, Goal, Num, Hrom, Low, Skip, Max_dif, function):
+    def __init__(self, Goal, Num, Hrom, Skip, Max_dif, function):
         self.goal = Goal
         self.N = Num
         self.HROM = Hrom
-        self.LOW = Low
         self.SKIP = Skip
         self.MAX_DIF = Max_dif
         self.DNK = []
